@@ -11,7 +11,7 @@
 ![Tests](https://img.shields.io/badge/tests-19%2F19%20passing-brightgreen)
 
 **India's first concept of an indigenous tamper-aware RISC-V edge platform
-for defense and critical IoT — selected as a Quarterfinalist in C-DAC's
+for defense and critical IoT - selected as a Quarterfinalist in C-DAC's
 [DIR-V Grand Challenge 2025](https://www.pib.gov.in/PressReleasePage.aspx?PRID=2113411).**
 
 </div>
