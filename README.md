@@ -50,9 +50,7 @@ TAP-RISC turns that around with **autonomous active defense**:
 
 **This is a conceptual project with a working software simulator.** It
 was developed as a DIR-V Grand Challenge 2025 submission and earned
-**quarterfinalist** standing on the strength of the design. The team
-**has not yet built physical hardware** or written RTL for the
-VEGA + Artix-7 combination — that work is scoped for Q4 2025 onwards
+**quarterfinalist** standing on the strength of the design. 
 (see [`docs/roadmap.md`](docs/roadmap.md)).
 
 What this repository contains:
@@ -104,7 +102,7 @@ tap-risc/
 
 ## Quick start
 
-The simulator has **zero required dependencies** — it runs on stdlib
+The simulator has **zero required dependencies** - it runs on stdlib
 Python 3.10+.
 
 ```bash
@@ -174,44 +172,4 @@ The corresponding audit log (SHA-256 chained, tamper-evident):
 See [`docs/comparative-analysis.md`](docs/comparative-analysis.md) for
 the per-capability breakdown.
 
-## Team
 
-**Team YugaMicro**, Department of Electronics & Communication,
-**BMS Institute of Technology and Management**, Bengaluru.
-
-| Name | USN |
-|---|---|
-| Sahana G *(Team Lead)* | 1BY23EC089 |
-| A V Ravi Shankar Rayal | 1BY23EC007 |
-| Varshitha N B | 1BY23EC119 |
-| Amogha T Maiya | 1BY23EC013 |
-| Arindam Kashyap | 1BY23EC021 |
-
-**Mentor:** Dr. Sumathi M S, Asst. Professor, ETE Dept., BMSIT.
-
-## Acknowledgements
-
-- **C-DAC** for the VEGA AT1051 RISC-V IP and the DIR-V program.
-- **MeitY** for the DIR-V Grand Challenge 2025 platform.
-- **AMD / Xilinx** for the Artix-7 100T development board.
-- **The Zephyr Project** for the RTOS we plan to build on.
-
-## License
-
-[MIT](LICENSE). This is an academic project; in production
-deployments any TAP-RISC derivative should go through formal
-security certification (Common Criteria EAL4+ at a minimum).
-
-## Citing this work
-
-```bibtex
-@misc{taprisc2025,
-  title  = {TAP-RISC: Tamper-Aware Portable RISC-V Edge Platform},
-  author = {Team YugaMicro and Sahana G and {A V Ravi Shankar Rayal}
-            and Varshitha N B and Amogha T Maiya and Arindam Kashyap},
-  year   = {2025},
-  note   = {DIR-V Grand Challenge 2025 Quarterfinalist Submission,
-            BMS Institute of Technology and Management},
-  url    = {https://github.com/YOUR-USER/tap-risc}
-}
-```
