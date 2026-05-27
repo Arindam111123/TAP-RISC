@@ -1,0 +1,41 @@
+cff-version: 1.2.0
+message: "If you use TAP-RISC or refer to this design, please cite it as below."
+title: "TAP-RISC: Tamper-Aware Portable RISC-V Edge Platform"
+abstract: >-
+  A conceptual indigenous tamper-aware computing platform built on
+  C-DAC's VEGA AT1051 RISC-V core and a Xilinx Artix-7 100T FPGA.
+  Multi-modal physical tamper detection (accelerometer, barometer,
+  capacitive PCB mesh) with 2-of-3 fusion voting, autonomous <500 ms
+  AES-256-CTR crypto-erase, SHA-256 chained tamper-evident audit log,
+  and AES-encrypted LoRa / BLE alerting. Selected as a Quarterfinalist
+  in C-DAC's DIR-V Grand Challenge 2025.
+type: software
+authors:
+  - family-names: "G"
+    given-names: "Sahana"
+    affiliation: "BMS Institute of Technology and Management"
+  - family-names: "Rayal"
+    given-names: "A V Ravi Shankar"
+    affiliation: "BMS Institute of Technology and Management"
+  - family-names: "N B"
+    given-names: "Varshitha"
+    affiliation: "BMS Institute of Technology and Management"
+  - family-names: "Maiya"
+    given-names: "Amogha T"
+    affiliation: "BMS Institute of Technology and Management"
+  - family-names: "Kashyap"
+    given-names: "Arindam"
+    affiliation: "BMS Institute of Technology and Management"
+keywords:
+  - RISC-V
+  - VEGA
+  - DIR-V
+  - tamper detection
+  - hardware security
+  - secure boot
+  - crypto-erase
+  - embedded security
+  - IoT security
+  - defense electronics
+license: MIT
+date-released: 2025-06-01

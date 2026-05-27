@@ -1,0 +1,9 @@
+# Required at runtime
+# (none - simulator works with stdlib only)
+
+# Optional for hardened AES-256-CTR (otherwise falls back to a
+# stdlib-based stream cipher for demo purposes only).
+cryptography>=42.0
+
+# Optional for the visualization in scripts/visualize_scenario.py
+matplotlib>=3.7

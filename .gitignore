@@ -1,0 +1,34 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts (when we move to hardware later)
+build/
+*.bit
+*.bin
+*.elf
+*.hex
+.Xil/
+*.jou
+*.log
+
+# Local data
+*.local
+*.pem
+*.key
